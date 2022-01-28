@@ -11,6 +11,18 @@
     padding-bottom: 15rem;
 }
 
+@media only screen and (max-width: 600px) {
+  
+    .landiv {
+      padding-top: 6rem;
+      padding-bottom: 15rem;
+  }
+  .pythonbox {
+    min-height: 233px;
+    min-width: 367px;
+}
+}
+
 .skills-icon{
   color: #818CF8;
 
