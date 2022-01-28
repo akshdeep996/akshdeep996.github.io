@@ -1,0 +1,184 @@
+/* index n0.  */
+
+.index {
+    color: white;
+}
+
+/* landing div  */
+
+.landiv {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.skills-icon{
+  color: #818CF8;
+
+    
+    
+}
+
+.skills-icon:hover{
+    /* color: white; */
+    color: #6366F1;
+    cursor: pointer; 
+    
+}
+
+.skills-icon:hover h2 {
+  color:white;
+  cursor: pointer;
+}
+
+/* heading  */
+
+.heading:hover h1{
+  color:#EAB464;
+  /* cursor: pointer; */
+  
+  
+}
+
+
+
+body, html {
+    font-family: "Fira Code", "Fira Mono", "SF Mono", "Roboto Mono", Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+    background-color: #111827;
+}
+
+.name {
+    padding: 13px;
+     color:#EAB464;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.card:hover .img-top{
+    display: inline;
+}
+
+.card-lc {
+    position: relative;
+}
+.card-lc img.img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.card-lc:hover img.img-top {
+  opacity: 1;
+}
+
+
+.card-mail {
+    position: relative;
+}
+.card-mail img.img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.card-mail:hover img.img-top {
+  opacity: 1;
+}
+
+
+.card-ln {
+    position: relative;
+}
+.card-ln img.img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.card-ln:hover img.img-top {
+  opacity: 1;
+}
+
+.card-ln {
+    position: relative;
+}
+.card-ln img.img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.card-ln:hover img.img-top {
+  opacity: 1;
+}
+
+.card-ig {
+    position: relative;
+}
+.card-ig img.img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.card-ig:hover img.img-top {
+  opacity: 1;
+}
+
+.pythonbox {
+    min-height: 233px;
+}
+
+
+/* Code for transition */
+
+
+.divWrapper > div{
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in;
+  
+}
+
+.divWrapper > div:is(:hover, :focus) {
+  transform: translateY(-10px);
+}
+
+.divWrapper:hover h2 {
+  color:rgba(129,140,248,var(--tw-text-opacity));
+}
+.divWrapper:hover p {
+  color:white;
+}
+/* typing effect */
+
+.type{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typing 3s forwards;
+  
+}
+@keyframes typing {
+  from { width: 10% }
+  to { width: 100% }
+}
